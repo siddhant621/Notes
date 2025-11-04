@@ -25,7 +25,7 @@ const Home = () => {
 
     if (pasteId) {
       // If pasteId is present, update the paste
-      dispatch(updatePastes(paste));
+      dispatch(updateToPastes(paste));
     } else {
       dispatch(addToPastes(paste));
     }
